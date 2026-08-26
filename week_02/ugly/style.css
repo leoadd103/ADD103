@@ -15,12 +15,12 @@ h1 {
 }
 
 blockquote {
-    font-size:32px;
+    font-size:24px;
   background-color:rgba(9, 197, 125, 0.425);
   margin-top: 50px;
   padding: 50px;
   font-family:monospace;
-  text-align:center;
+  text-align:left;
 }
 
 /* h2 and p color/font/size */
