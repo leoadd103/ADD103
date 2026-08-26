@@ -1,0 +1,71 @@
+/* background rules for page */
+body {
+    background-image: url("background.jpg");
+  background-color: #d9ff00;
+  background-repeat: repeat;
+  background-size:700px;
+}
+
+/* h1 & quote colors/font/size */
+
+h1 {
+    font-size:100px;
+  color: #7404f5;
+  font-family: monospace;
+}
+
+blockquote {
+    font-size:32px;
+  background-color:rgba(9, 197, 125, 0.425);
+  margin-top: 50px;
+  padding: 50px;
+  font-family:monospace;
+  text-align:center;
+}
+
+/* h2 and p color/font/size */
+
+h2 {
+    text-align:center;
+  color: #e599d2;
+  font-size: 30px;
+  font-family: cursive;
+  border: 10px dotted rgba(228, 156, 0, 0.699);
+}
+
+p {
+  color: #ee0d0d;
+  font-family: fantasy;
+  text-align:center;
+}
+
+/* quote colors */
+
+q {
+  color: #020205;
+}
+
+b {
+  color: #04cff3;
+}
+
+/* abbr color/size/position */
+
+abbr {
+    color:#1b3091;
+    font-size: 50px;
+    font-family: system-ui; 
+    border: 10px dashed green;
+}
+
+/* del/ins colors/fonts */
+
+del {
+    font-size:20px;
+    color:#7404f5
+}
+
+ins {
+    font-size:25px;
+    color:#f70ed0
+}
