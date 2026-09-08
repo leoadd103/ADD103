@@ -1,0 +1,12 @@
+/* borders for calender */
+table, th, td {
+    border: 2px solid blue;
+}
+
+/* h2 styles */
+caption {
+    text-align: center;
+        color: blue;
+        border: 2px solid blue;
+        border-spacing:50px solid blue;
+}
