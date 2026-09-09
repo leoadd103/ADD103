@@ -1,0 +1,28 @@
+/* styles for images */
+
+.gal-pic {
+    max-width: 270px;
+    border: 10px solid #68727a;
+    border-radius: 10px;
+}
+
+/* car links styles */
+
+.car-links {
+    display: flex;
+    gap: 12px;
+    margin: 20px 0;
+}
+  a {
+    padding: 10px 16px;
+    color: #ffffff;
+    background-color: #68727a;
+    border: 2px solid #4f585f;
+    border-radius: 8px;
+}
+
+/* background color */
+
+body {
+    background-color: #d2b48c
+}
