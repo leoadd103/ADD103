@@ -1,0 +1,102 @@
+/* color styles for site */
+
+:root {
+  --primary-color: #3d4f5c;
+  --background-color: #eeeeee;
+  --border-color: #8c969c;
+}
+
+/* body, header, h1, main styles */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 30px;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: var(--primary-color);
+  text-shadow: 2px 3px var(--border-color);
+}
+
+main {
+  text-align: center;
+}
+
+/* column card styles */
+
+.column-card {
+  display: inline-block;
+  width: 48%;
+  padding: 20px;
+  margin: 5px;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  vertical-align: top;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.column-card h2 {
+  color: var(--primary-color);
+}
+
+aside {
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+}
+
+/* tooltip styles */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  color: var(--primary-color);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+    box-sizing: border-box;
+}
+
+/* footer styles */
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer a {
+  color: var(--primary-color);
+}
