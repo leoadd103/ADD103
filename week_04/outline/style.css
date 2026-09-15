@@ -1,0 +1,43 @@
+/* body styles */
+body {
+    border: solid, #000000;
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  line-height: 1.6;
+}
+
+/* h1 style */
+h1 {
+  margin-bottom: 20px;
+}
+
+/* ul style */
+
+ul {
+  list-style-type: square;
+  margin: 15px;
+  line-height: 1.8;
+}
+
+/* ol style */
+
+ol {
+  list-style-type: upper-alpha;
+  margin: 10px;
+  line-height: 1.8;
+}
+
+/* ol, ul combined style */
+
+ol, ul {
+    border:color #000000;
+  list-style-type: circle;
+  margin: 8px;
+  padding-left: 30px;
+}
+
+/* footer styles */
+
+footer {
+  margin-top: 40px;
+}
