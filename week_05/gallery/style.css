@@ -1,0 +1,50 @@
+/* styles */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+/* Parent Flex Container */
+.gallery-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Child Cards */
+.card {
+  width: 30%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #333;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  margin: 10px 0;
+}
+
+/* footer styles */
+
+footer {
+  margin-top: 30px;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+}
