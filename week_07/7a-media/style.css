@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f1f8;
+    margin: 0;
+    padding: 30px;
+}
+
+/* for phone */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.info h1 {
+    color: #24527a;
+}
+
+.info h2 {
+    color: #555;
+}
+
+/* for desktop */
+
+@media (min-width: 700px) {
+    .card {
+        flex-direction: row;
+        text-align: left;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .avatar {
+        margin: 0;
+    }
+}

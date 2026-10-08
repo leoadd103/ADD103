@@ -79,17 +79,37 @@ h2 {
   margin-bottom: 35px;
 }
 
-/* PHOTO WALL */
-
+/* Photo wall for phone */
 .photo-wall {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   gap: 15px;
+}
+
+/* tablet screen with 2 Columns */
+@media (min-width: 600px) {
+  .photo-wall {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* desktop with 3 Columns */
+@media (min-width: 900px) {
+  .photo-wall {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* big desktop with 4 Columns */
+@media (min-width: 1200px) {
+  .photo-wall {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .photo-wall img {
   width: 100%;
-  height: 260px;
+  height: 100%;
   object-fit: cover;
   border-radius: 12px;
   transition: transform 0.3s;
@@ -113,11 +133,23 @@ footer p {
 }
 
 footer a {
-  color: white;
-  text-decoration: none;
+  color: #fff;
   font-weight: bold;
 }
 
 footer a:hover {
   text-decoration: underline;
+}
+
+/* mobile hero */
+@media (max-width: 599px) {
+  .hero {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .hero-text,
+  .hero-img {
+    width: 100%;
+  }
 }
