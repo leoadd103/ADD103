@@ -24,6 +24,7 @@ body {
 .hero-text,
 h1 {
   font-size: 52px;
+  align-self: auto;
   margin: 0 0 15px;
   color: #000000;
 }
@@ -106,6 +107,7 @@ h2 {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
 
 .photo-wall img {
   width: 100%;
