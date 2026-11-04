@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light switch</title>
+    <style>
+      body {
+        background-color: white;
+        color: black;
+        text-align: center;
+        font-family: Arial, sans-serif;
+      }
+
+      .dark {
+        background-color: #222;
+        color: white;
+      }
+
+      button {
+        padding: 10px;
+        background-color: red;
+        color: white;
+        border: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Light Switch</h1>
+    <p id="message">The lights are on!</p>
+
+    <button id="lightButton">Turn Lights Off</button>
+
+    <script>
+      const button = document.getElementById("lightButton");
+      const message = document.getElementById("message");
+
+      button.addEventListener("click", function () {
+        document.body.classList.toggle("dark");
+
+        if (document.body.classList.contains("dark")) {
+          message.textContent = "The lights are off!";
+          button.textContent = "Turn Lights On";
+        } else {
+          message.textContent = "The lights are on!";
+          button.textContent = "Turn Lights Off";
+        }
+      });
+    </script>
+  </body>
+  <footer>
+    <p>
+        <a href="../../index.html">Back to Student Portal</a>
+    </p>
+  </footer>
+</html>
